@@ -26,4 +26,13 @@
         <servlet-name>region</servlet-name>
         <url-pattern>/region/*</url-pattern>
     </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>district</servlet-name>
+        <servlet-class>kpi.servlets.DistrictServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>district</servlet-name>
+        <url-pattern>/district/*</url-pattern>
+    </servlet-mapping>
 </web-app>

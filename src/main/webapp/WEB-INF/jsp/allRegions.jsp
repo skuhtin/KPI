@@ -16,16 +16,16 @@
             <a class="navbar-brand" href="/KPI/allRegions">All Regions</a>
         </li>
         <li class="nav-item">
-            <a class="navbar-brand" href="/KPI/region/Region1?regId=Region1">Region 1</a>
+            <a class="navbar-brand" href="/KPI/region/1">Region 1</a>
         </li>
         <li class="nav-item">
-            <a class="navbar-brand" href="/KPI/region/Region2?regId=Region2">Region 2</a>
+            <a class="navbar-brand" href="/KPI/region/2">Region 2</a>
         </li>
         <li class="nav-item">
-            <a class="navbar-brand" href="/KPI/region/Region3?regId=Region3">Region 3</a>
+            <a class="navbar-brand" href="/KPI/region/3">Region 3</a>
         </li>
         <li class="nav-item">
-            <a class="navbar-brand" href="/KPI/region/Region4?regId=Region4">Region 4</a>
+            <a class="navbar-brand" href="/KPI/region/4">Region 4</a>
         </li>
     </ul>
 
@@ -40,27 +40,27 @@
             <div class="card-group">
                 <li class="card card-block">
                     <div class="text-lg-center">"KPI 1"</div>
-                    SELECT `KPI1` FROM `REG_KPI` WHERE `REGION` = `1`
+                    SELECT `DATE`,`KPI1` FROM `REG_DATA` WHERE `REGION` = `1`
                 </li>
                 <li class="card card-block">
                     <div class="text-lg-center">"KPI 2"</div>
-                    SELECT `KPI2` FROM `REG_KPI` WHERE `REGION` = `1`
+                    SELECT `DATE`,`KPI2` FROM `REG_DATA` WHERE `REGION` = `1`
                 </li>
                 <li class="card card-block">
                     <div class="text-lg-center">"KPI 3"</div>
-                    SELECT `KPI3` FROM `REG_KPI` WHERE `REGION` = `1`
+                    SELECT `DATE`,`KPI3` FROM `REG_DATA` WHERE `REGION` = `1`
                 </li>
                 <li class="card card-block">
                     <div class="text-lg-center">"KPI 5"</div>
-                    SELECT `KPI5` FROM `REG_KPI` WHERE `REGION` = `1`
+                    SELECT `DATE`,`KPI5` FROM `REG_DATA` WHERE `REGION` = `1`
                 </li>
                 <li class="card card-block">
                     <div class="text-lg-center">"KPI 6"</div>
-                    SELECT `KPI6` FROM `REG_KPI` WHERE `REGION` = `1`
+                    SELECT `DATE`,`KPI6` FROM `REG_DATA` WHERE `REGION` = `1`
                 </li>
                 <li class="card card-block">
                     <div class="text-lg-center">"KPI 7"</div>
-                    SELECT `KPI7` FROM `REG_KPI` WHERE `REGION` = `1`
+                    SELECT `DATE`,`KPI7` FROM `REG_DATA` WHERE `REGION` = `1`
                 </li>
             </div>
         </ul>
@@ -73,27 +73,27 @@
             <div class="card-group">
                 <li class="card card-block">
                     <div class="text-lg-center">"KPI 1"</div>
-                    SELECT `KPI1` FROM `REG_KPI` WHERE `REGION` = `2`
+                    SELECT `DATE`,`KPI1` FROM `REG_DATA` WHERE `REGION` = `2`
                 </li>
                 <li class="card card-block">
                     <div class="text-lg-center">"KPI 2"</div>
-                    SELECT `KPI2` FROM `REG_KPI` WHERE `REGION` = `2`
+                    SELECT `DATE`,`KPI2` FROM `REG_DATA` WHERE `REGION` = `2`
                 </li>
                 <li class="card card-block">
                     <div class="text-lg-center">"KPI 3"</div>
-                    SELECT `KPI3` FROM `REG_KPI` WHERE `REGION` = `2`
+                    SELECT `DATE`,`KPI3` FROM `REG_DATA` WHERE `REGION` = `2`
                 </li>
                 <li class="card card-block">
                     <div class="text-lg-center">"KPI 5"</div>
-                    SELECT `KPI5` FROM `REG_KPI` WHERE `REGION` = `2`
+                    SELECT `DATE`,`KPI5` FROM `REG_DATA` WHERE `REGION` = `2`
                 </li>
                 <li class="card card-block">
                     <div class="text-lg-center">"KPI 6"</div>
-                    SELECT `KPI6` FROM `REG_KPI` WHERE `REGION` = `2`
+                    SELECT `DATE`,`KPI6` FROM `REG_DATA` WHERE `REGION` = `2`
                 </li>
                 <li class="card card-block">
                     <div class="text-lg-center">"KPI 7"</div>
-                    SELECT `KPI7` FROM `REG_KPI` WHERE `REGION` = `2`
+                    SELECT `DATE`,`KPI7` FROM `REG_DATA` WHERE `REGION` = `2`
                 </li>
             </div>
         </ul>
@@ -106,27 +106,27 @@
             <div class="card-group">
                 <li class="card card-block">
                     <div class="text-lg-center">"KPI 1"</div>
-                    SELECT `KPI1` FROM `REG_KPI` WHERE `REGION` = `3`
+                    SELECT `DATE`,`KPI1` FROM `REG_DATA` WHERE `REGION` = `3`
                 </li>
                 <li class="card card-block">
                     <div class="text-lg-center">"KPI 2"</div>
-                    SELECT `KPI2` FROM `REG_KPI` WHERE `REGION` = `3`
+                    SELECT `DATE`,`KPI2` FROM `REG_DATA` WHERE `REGION` = `3`
                 </li>
                 <li class="card card-block">
                     <div class="text-lg-center">"KPI 3"</div>
-                    SELECT `KPI3` FROM `REG_KPI` WHERE `REGION` = `3`
+                    SELECT `DATE`,`KPI3` FROM `REG_DATA` WHERE `REGION` = `3`
                 </li>
                 <li class="card card-block">
                     <div class="text-lg-center">"KPI 5"</div>
-                    SELECT `KPI5` FROM `REG_KPI` WHERE `REGION` = `3`
+                    SELECT `DATE`,`KPI5` FROM `REG_DATA` WHERE `REGION` = `3`
                 </li>
                 <li class="card card-block">
                     <div class="text-lg-center">"KPI 6"</div>
-                    SELECT `KPI6` FROM `REG_KPI` WHERE `REGION` = `3`
+                    SELECT `DATE`,`KPI6` FROM `REG_DATA` WHERE `REGION` = `3`
                 </li>
                 <li class="card card-block">
                     <div class="text-lg-center">"KPI 7"</div>
-                    SELECT `KPI7` FROM `REG_KPI` WHERE `REGION` = `3`
+                    SELECT `DATE`,`KPI7` FROM `REG_DATA` WHERE `REGION` = `3`
                 </li>
             </div>
         </ul>
@@ -139,27 +139,27 @@
             <div class="card-group">
                 <li class="card card-block">
                     <div class="text-lg-center">"KPI 1"</div>
-                    SELECT `KPI1` FROM `REG_KPI` WHERE `REGION` = `4`
+                    SELECT `DATE`,`KPI1` FROM `REG_DATA` WHERE `REGION` = `4`
                 </li>
                 <li class="card card-block">
                     <div class="text-lg-center">"KPI 2"</div>
-                    SELECT `KPI2` FROM `REG_KPI` WHERE `REGION` = `4`
+                    SELECT `DATE`,`KPI2` FROM `REG_DATA` WHERE `REGION` = `4`
                 </li>
                 <li class="card card-block">
                     <div class="text-lg-center">"KPI 3"</div>
-                    SELECT `KPI3` FROM `REG_KPI` WHERE `REGION` = `4`
+                    SELECT `DATE`,`KPI3` FROM `REG_DATA` WHERE `REGION` = `4`
                 </li>
                 <li class="card card-block">
                     <div class="text-lg-center">"KPI 5"</div>
-                    SELECT `KPI5` FROM `REG_KPI` WHERE `REGION` = `4`
+                    SELECT `DATE`,`KPI5` FROM `REG_DATA` WHERE `REGION` = `4`
                 </li>
                 <li class="card card-block">
                     <div class="text-lg-center">"KPI 6"</div>
-                    SELECT `KPI6` FROM `REG_KPI` WHERE `REGION` = `4`
+                    SELECT `DATE`,`KPI6` FROM `REG_DATA` WHERE `REGION` = `4`
                 </li>
                 <li class="card card-block">
                     <div class="text-lg-center">"KPI 7"</div>
-                    SELECT `KPI7` FROM `REG_KPI` WHERE `REGION` = `4`
+                    SELECT `DATE`,`KPI7` FROM `REG_DATA` WHERE `REGION` = `4`
                 </li>
             </div>
         </ul>
