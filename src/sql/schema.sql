@@ -45,3 +45,28 @@ CREATE TABLE EQUIP_DATA (
   `KPI_6` FLOAT,
   PRIMARY KEY(ID)
 );
+
+INSERT INTO OBL_LIST (REGION,OBL) VALUES ('1','Obl_1'),
+  ('1','Obl_2'),
+  ('1','Obl_3'),
+  ('1','Obl_4'),
+  ('1','Obl_5'),
+  ('1','Obl_6'),
+  ('2','Obl_7'),
+  ('2','Obl_8'),
+  ('2','Obl_9'),
+  ('2','Obl_10'),
+  ('2','Obl_11'),
+  ('2','Obl_12'),
+  ('3','Obl_13'),
+  ('3','Obl_14'),
+  ('3','Obl_15'),
+  ('3','Obl_16'),
+  ('3','Obl_17'),
+  ('3','Obl_18'),
+  ('4','Obl_19'),
+  ('4','Obl_20'),
+  ('4','Obl_21'),
+  ('4','Obl_22'),
+  ('4','Obl_23'),
+  ('4','Obl_24');

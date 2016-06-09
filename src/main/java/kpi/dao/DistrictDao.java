@@ -20,7 +20,7 @@ public class DistrictDao {
 
   private List<String> districtHandler(String region, Connection connection) throws SQLException {
     List<String> districts = new ArrayList<String>();
-    String request = "SELECT obl FROM obl_list WHERE region = ?";
+    String request = "SELECT OBL FROM OBL_LIST WHERE region = ?";
     PreparedStatement statement = connection.prepareStatement(request);
     statement.setString(1,region);
     ResultSet resultSet = statement.executeQuery();
